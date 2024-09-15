@@ -86,8 +86,8 @@ Effect of P on C population = $\beta$,  Benefit shearing( Public to Cheater) = $
 
 
 ###  Equilibrium Point:
-$( \frac{\nu}{\alpha}, \frac{r_c - \frac{\beta}{\gamma} \cdot (r_P - \eta \cdot \frac{\nu}{\alpha}) - \lambda \cdot \frac{\nu}{\alpha}}{\alpha}, \frac{r_P - \eta \cdot \frac{\nu}{\alpha}}{\gamma})
-$
+$$( \frac{\nu}{\alpha}, \frac{r_c - \frac{\beta}{\gamma} \cdot (r_P - \eta \cdot \frac{\nu}{\alpha}) - \lambda \cdot \frac{\nu}{\alpha}}{\alpha}, \frac{r_P - \eta \cdot \frac{\nu}{\alpha}}{\gamma})
+$$
 
 This is the equilibrium point where all three populations coexist.
 
