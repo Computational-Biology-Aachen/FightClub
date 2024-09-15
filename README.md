@@ -111,7 +111,7 @@ Cyanobacteria are photosynthetic microorganisms that convert light energy and ca
   
   where $ K_L $ and $ K_C $ are half-saturation constants for light and CO_2,  $ P_{\text{max}} $ is the maximum photosynthesis rate respectively.
 
-\textbf{Sucrose Production Rule}: The sucrose production $P(t) $ is a fraction of the photosynthesis output, adjusted by the cell's energy needs and efficiency factors.
+**Sucrose Production Rule:** The sucrose production $P(t) $ is a fraction of the photosynthesis output, adjusted by the cell's energy needs and efficiency factors.
   
  
   $$ S(t) = k \cdot P \cdot C  $$
@@ -142,9 +142,9 @@ $$ \frac{dC}{dt} = \mu_C \cdot C - \lambda \cdot C $$
 
 where $ \mu_{\text{max}} $ is the maximum specific growth rate,$ K_s $ is the half-saturation constant for sucrose, $ \lambda $ is the mortality rate of cyanobacteria.
 
-\textbf{3) Private, Public and Cheater Metabolizer(Competition and Mutualism )}
+**3) Private, Public and Cheater Metabolizer(Competition and Mutualism )**
 
- \textbf{Private Metabolizer (Q)}: This partner produces private enzymes to convert sucrose (Sh) into glucose (G) for its use. The specific growth rate $\mu_P$ is:
+ **Private Metabolizer (Q):** This partner produces private enzymes to convert sucrose (Sh) into glucose (G) for its use. The specific growth rate $\mu_P$ is:
 
 $$ \mu_q =\frac{\mu_{\text{max}}  \cdot S_h}{k_q + S_h} $$
 
@@ -156,7 +156,7 @@ $$ \mu_q =\frac{\mu_{\text{max}}  \cdot S_h}{k_q + S_h} $$
 
 $$ \frac{dS_h}{dt} = S_h - \nu_p \cdot P - \nu_q \cdot Q  $$
 
-\textbf{Public Metabolizer (P)}: This partner produces public enzymes that convert sucrose(Sh)into glucose (G). The specific growth rate $ \mu_P $ of the public metabolizer depends on the available glucose:
+**Public Metabolizer (P)**: This partner produces public enzymes that convert sucrose(Sh)into glucose (G). The specific growth rate $ \mu_P $ of the public metabolizer depends on the available glucose:
 
   $$ \mu_P = \mu_\text{max} \frac{G}{K_p + G } $$
 
@@ -167,7 +167,7 @@ $$ \frac{dS_h}{dt} = S_h - \nu_p \cdot P - \nu_q \cdot Q  $$
   Where $ e_p $ represents the cost of producing public enzymes.
 
 
--\textbf{ Cheater (D):} This partner does not produce public enzymes and relies on the glucose (G) produced by the public metabolizer. The specific growth rate $ \mu_D $ of the cheater is:
+ **Cheater (D)**: This partner does not produce public enzymes and relies on the glucose (G) produced by the public metabolizer. The specific growth rate $ \mu_D $ of the cheater is:
 
   $$ \mu_d = \mu_{\text{max}} \frac{G}{K_D + G} $$
 
