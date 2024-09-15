@@ -46,32 +46,31 @@ This project aims to apply evolutionary game theory (EGT) to understand the meta
 ## Model discription
 
 # lotka volterra
-\begin{equation}\label{LT}
-    \frac{dC}{dt}= r_c \cdot C - \alpha \cdot C\cdot D - \beta \cdot C \cdot P
-\end{equation*}
-\begin{equation*}
-    \frac{dD}{dt}= \alpha C\cdot D - \nu \cdot D
-\end{equation*}
-\begin{equation}
-    \frac{dP}{dt}= r_p \cdot P - \eta P \cdot C 
-\end{equation*}
+
+$$ \frac{dC}{dt}= r_c \cdot C - \alpha \cdot C\cdot D - \beta \cdot C \cdot P $$
+
+   $$ \frac{dD}{dt}= \alpha C\cdot D - \nu \cdot D $$
+
+
+   $$ \frac{dP}{dt}= r_p \cdot P - \eta P \cdot C $$ 
+
 $r_c, r_p =$  natural growth rate of public and private in Monoculture.
 Effect of P on C population = $\beta$,  Benefit shearing( Public to Cheater) = $\alpha$,  Effect of C on P  Population =$\eta$, and mortality rate of cheater Population  = $\nu$.
 
 
 # lotka volterra with logistic growth
 
-  \begin{equation}
+ $$
     \frac{dC}{dt}= r_c \cdot C - \alpha \cdot C\cdot D - \beta \cdot C \cdot P - \lambda \cdot C ^2
-\end{equation}
+$$
 
-\begin{equation}
+$$
     \frac{dD}{dt}= \alpha C\cdot D - \nu \cdot D^2
-\end{equation}
+$$
 
-\begin{equation}
+$$
     \frac{dP}{dt}= r_P \cdot P - \eta P \cdot C - \gamma \cdot P^2
-\end{equation}
+$$
 
 
 
