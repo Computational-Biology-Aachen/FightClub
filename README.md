@@ -46,13 +46,13 @@ This project aims to apply evolutionary game theory (EGT) to understand the meta
 ## Model discription
 
 # lotka volterra
-\begin{equation*}\label{LT}
+\begin{equation}\label{LT}
     \frac{dC}{dt}= r_c \cdot C - \alpha \cdot C\cdot D - \beta \cdot C \cdot P
 \end{equation*}
 \begin{equation*}
     \frac{dD}{dt}= \alpha C\cdot D - \nu \cdot D
 \end{equation*}
-\begin{equation*}
+\begin{equation}
     \frac{dP}{dt}= r_p \cdot P - \eta P \cdot C 
 \end{equation*}
 $r_c, r_p =$  natural growth rate of public and private in Monoculture.
@@ -61,17 +61,17 @@ Effect of P on C population = $\beta$,  Benefit shearing( Public to Cheater) = $
 
 # lotka volterra with logistic growth
 
-  \begin{equation*}
+  \begin{equation}
     \frac{dC}{dt}= r_c \cdot C - \alpha \cdot C\cdot D - \beta \cdot C \cdot P - \lambda \cdot C ^2
-\end{equation*}
+\end{equation}
 
-\begin{equation*}
+\begin{equation}
     \frac{dD}{dt}= \alpha C\cdot D - \nu \cdot D^2
-\end{equation*}
+\end{equation}
 
-\begin{equation*}
+\begin{equation}
     \frac{dP}{dt}= r_P \cdot P - \eta P \cdot C - \gamma \cdot P^2
-\end{equation*}
+\end{equation}
 
 
 
