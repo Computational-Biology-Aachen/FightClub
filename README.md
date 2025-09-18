@@ -24,9 +24,8 @@ This repository contains the code, models, and documentation for our theoretical
 ```
 FightClub/
 │
-├── 📁 model/            # All code related to simulations 
+├── 📁 src/            # All code related to simulations 
 │   ├── dynamic.py       # Model based on differential equations
-│   ├── evolutionary.py  # Model based on evolutionary game theory
 │   └── parameters.py     # parameters used for analysis
 │
 ├── 📁 analysis/         # Post-processing and figure generation
