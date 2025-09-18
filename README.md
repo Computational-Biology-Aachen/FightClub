@@ -14,7 +14,7 @@ In microbial communities, shared nutrient use can lead to complex dynamics shape
   - **Cheaters** (C): Exploit the shared glucose without contributing enzymes.
   - **Private Metabolizers** (M): Internally cleave sucrose, bypassing communal sharing.
 
-We explore both implement a system of non-linear ODEs in a Lotka–Volterra-inspired framework to study the dynamics. The model captures growth, cooperation, and competition dynamics among the populations.
+We explore both implemention of the system  in a Generalized Lotka–Volterra-inspired framework and Evalutionary Game Theory to study the dynamics. The model captures growth, cooperation, and competition dynamics among the populations.
 
 ---
 
@@ -27,24 +27,22 @@ FightClub/
 ├── 📁 model/            # All code related to simulations 
 │   ├── dynamic.py       # Model based on differential equations
 │   ├── evolutionary.py  # Model based on evolutionary game theory
-│   └── utils.py         # Helper functions (e.g., for fitting, plotting)
+│   └── parameters.py     # parameters used for analysis
 │
 ├── 📁 analysis/         # Post-processing and figure generation
-│   ├── populationdynamics.ipynb  # Bifurcation analysis notebook
-│   ├── casestudy.ipynb  # Case study showcasing applicability of teh general ODE model for race for iron
-│   └── figures/         # Output plots used in manuscript
+│   ├── main.ipynb  # All analysis notebook
+│   ├── casestudy 1.ipynb  # Case study showcasing applicability of teh general ODE model for parameterization from experimental data
+│   └── simplex-code.ipynb  # Evalutionary Game Theory 
+    └── output  
+│  
 │
-├── 📁 data/             # Experimental data (if shared)
-│   ├── monoculture.csv    
-│   └── coculture.csv      
-│
-├── 📁 docs/             # Documentation and (in future) manuscript figures
-│   └── model_schematic.pdf
-    └── manuscript.pdf   # We can consider pushing the latex source
+├── 📁 docs/             
+│   └── model_schematic.pdf # Community  Schematic 
+    └── manuscript.pdf   # main manuscript file
 │
 ├── LICENSE
 ├── README.md
-├── requirements.txt       # Python dependencies or pixi, whatever you use
+├── requirements.txt       # Python dependencies
 ```
 
 
