@@ -64,8 +64,8 @@ If you use this code or model in your work, please cite:
 
 ```bibtex
 @misc{TripartiteMicrobialDynamics2025,
-  author       = {Hassan, Tanvir and Matuszy\'nska, Anna},
-  title        = {Tripartite Microbial Dynamics: A Theoretical Framework for Three-Way Nutrient Competition},
+  author       = {Hassan, Tanvir ; Dwivedi,Shalu; Schuster,Stefan and Matuszy\'nska, Anna},
+  title        = {Tripartite Microbial Community Dynamics:A Theoretical Framework for Simulating Competitive and Cooperative Strategies},
   year         = {2025},
   howpublished = {\url{https://github.com/Computational-Biology-Aachen/FightClub}},
   note         = {Version 1.0, accessed April 2025}
