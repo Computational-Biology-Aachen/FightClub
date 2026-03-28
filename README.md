@@ -25,14 +25,13 @@ This repository contains the code, models, and documentation for our theoretical
 FightClub/
 │
 ├── 📁 src/            # All code related to simulations 
-│   ├── dynamic.py       # Model based on differential equations
+│   ├── model.py       # Model based on differential equations
 │   └── parameters.py     # parameters used for analysis
 │
-├── 📁 analysis/         # Post-processing and figure generation
+├── 📁 Analysis/         # Post-processing and figure generation
 │   ├── main.ipynb  # All analysis notebook
-│   ├── casestudy 1.ipynb  # Case study showcasing applicability of teh general ODE model for parameterization from experimental data
-│   └── simplex-code.ipynb  # Evalutionary Game Theory 
-    └── output  
+│   ├── Case study 1.ipynb  # Case study showcasing applicability of teh general ODE model for parameterization from experimental data
+│   └── simplex-code.ipynb  # Evalutionary Game Theory   
 │  
 │
 ├── 📁 docs/             
@@ -41,7 +40,7 @@ FightClub/
 │
 ├── LICENSE
 ├── README.md
-├── requirements.txt       # Python dependencies
+├── environmental.yaml       # Python dependencies
 ```
 
 
@@ -65,10 +64,10 @@ If you use this code or model in your work, please cite:
 ```bibtex
 @misc{TripartiteMicrobialDynamics2025,
   author       = {Hassan, Tanvir ; Dwivedi,Shalu; Schuster,Stefan and Matuszy\'nska, Anna},
-  title        = {Tripartite Microbial Community Dynamics:A Theoretical Framework for Simulating Competitive and Cooperative Strategies},
+  title        = {Cooperation, privatization and cheating in microbial exoenzyme synthesis:  theoretical analysis in view of biotechnological applications},
   year         = {2025},
   howpublished = {\url{https://github.com/Computational-Biology-Aachen/FightClub}},
-  note         = {Version 1.0, accessed April 2025}
+  note         = {Version 1.1, accessed March 2026}
 }
 ```
 
